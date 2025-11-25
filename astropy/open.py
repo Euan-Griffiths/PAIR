@@ -9,6 +9,9 @@ with open("./astropy/test.txt","w") as f:
 with open("./astropy/data.txt","w") as f:
     f.write(str(data))
 print(data.shape)
-print(data.field(0))
 #plt.imshow(data, cmap="gray") Problem for checking dimensions look at visulise docs
+
+print(f"Data Shape (NAXIS,NAXIS1): {data.shape}")
+
+
 hdul.close()
