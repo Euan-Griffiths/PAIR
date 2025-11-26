@@ -15,4 +15,4 @@ i = fits.getdata(i_name)
 rgb_default = make_lupton_rgb(i, r, g, filename="ngc6976-default.jpeg")
 fig, ax = plt.subplots()
 ax.imshow(rgb_default, origin='lower')
-input
+input()
