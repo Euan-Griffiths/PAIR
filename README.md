@@ -3,9 +3,9 @@ PAIR is a Python Astrophyics Image Rendering Software designed to render Images 
   
 PAIR is built with a simple design making it suitable for Amateur astrophysicists with a simple and fast GUI
 
-[![astropy](http://img.shields.io/badge/powered%20by-AstroPy-orange.svg?style=flat)](http://www.astropy.org/) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 
 ## Credits
+[![astropy](http://img.shields.io/badge/powered%20by-AstroPy-orange.svg?style=flat)](http://www.astropy.org/) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)  
 Data Provided by the open archive at [NRAO](data.nrao.edu)  
 - 25A-470 from the Extended Very Large Array EVLA  
 
