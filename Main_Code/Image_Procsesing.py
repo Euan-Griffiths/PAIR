@@ -5,11 +5,18 @@ import numpy as np
 
 class Main():
     def __init__(self):
-        self.imageLink = r"FITS_IMAGES\ESA\502nmos.fits" #
+        #General Information
+        self.imageLink = r"FITS_IMAGES\ESA\502nmos.fits" 
+        self.location = 0
+        
+        #List for image rendering
         self.cmap = "CMRmap"
         self.lowerbound = 0
         self.upperbound = 70
-        self.location = 0
+        
+        #Lists for credit
+        Orginisations = []
+        
     
     def main(self):
         
@@ -33,7 +40,9 @@ class Main():
             
     def render(self):
         plt.show()
-        
+    
+    def credit_generator(self):
+        pass
     
 if __name__ == "__main__":
     main = Main()
