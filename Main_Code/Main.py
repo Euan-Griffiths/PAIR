@@ -10,8 +10,17 @@ from astropy.visualization import make_lupton_rgb # Lupton rgb allows for multii
 
 class FrontendMain():
     def __init__(self):
-        pass
-
+        self.colour = "#BBB"
+        self.window = tk.Tk()
+        self.window.geometry=("500x500")
+        self.window.state('zoomed')
+        self.window.iconbitmap("./SmallLogo.ico")
+        self.window.configure(background=self.colour)
+        
+        self.frame = tk.Frame(self.window)
+        self.frame.pack()
+        
+        self.window.mainloop()
     def main(self):
         pass
     
